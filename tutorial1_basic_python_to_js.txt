@@ -1,0 +1,28 @@
+Title: Code Translation Tutorial 1 – Python to JavaScript (Basic Function)
+
+Step 1: Provide a simple Python function.
+Example:
+def square(x):
+    return x * x
+
+Step 2: Prompt the AI:
+“Translate this Python function into JavaScript.”
+
+Step 3: Review the AI-generated translation.
+Expected output:
+function square(x) {
+    return x * x;
+}
+
+Step 4: Prompt the AI:
+“Add a comment explaining the function.”
+
+Expected output:
+function square(x) {
+    // Returns the square of a number
+    return x * x;
+}
+
+Step 5: Copy into a `.js` file and run it in Node.js or a browser console to verify.
+
+Goal: Teach AI to map syntax and structure from one language to another accurately.
